@@ -55,9 +55,17 @@ namespace TSP
         /// <summary>
         /// Gets solution.
         /// </summary>
-        public List<Vertex> Solution
+        public List<string> Solution
         {
-            get { return solution; }
+            get
+            {
+                List<string> stringList = new List<string>();
+
+                foreach (Vertex vertex in solution)
+                    stringList.Add(vertex.Name);
+
+                return stringList;
+            }
         }
 
         /// <summary>

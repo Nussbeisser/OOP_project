@@ -23,7 +23,7 @@ namespace TSP
         public BruteForce(Graph graph, string root)
         {
             this.graph = graph;
-            this.root = stringToVertex(root);
+            this.root = isRootValid(stringToVertex(root));
             currentPath = new Path();
         }
 
@@ -126,6 +126,14 @@ namespace TSP
                     return vertex;
 
             return null;
+        }
+
+        private Vertex isRootValid(Vertex root)
+        {
+            if (graph.Vertices.Contains(root))
+                return root;
+            else
+                throw new System.Exception("Such a root does not exist");
         }
     }
 }
