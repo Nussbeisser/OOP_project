@@ -33,6 +33,7 @@ namespace TSP
         public List<Vertex> Verticies
         {
             get { return verticies; }
+            //set { verticies = value; }
         }
 
         /// <summary>
