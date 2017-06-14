@@ -1,0 +1,152 @@
+\hypertarget{class_t_s_p_1_1_path}{}\section{T\+S\+P.\+Path Class Reference}
+\label{class_t_s_p_1_1_path}\index{T\+S\+P.\+Path@{T\+S\+P.\+Path}}
+
+
+Data structure that represents path of verticies.  
+
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_t_s_p_1_1_path_a7e0e3153773cfc55f12188e7391ca7e4}{Path} ()
+\begin{DoxyCompactList}\small\item\em Initialises object of {\itshape Path}  type. \end{DoxyCompactList}\item 
+\hyperlink{class_t_s_p_1_1_path_aca57fab7fe67faf8661ba5b5c509cd65}{Path} (\hyperlink{class_t_s_p_1_1_path}{Path} p)
+\begin{DoxyCompactList}\small\item\em Copies object of {\itshape Path}  type. \end{DoxyCompactList}\item 
+void \hyperlink{class_t_s_p_1_1_path_af665136228859abe5ce93796067516ee}{Add} (Vertex ver)
+\begin{DoxyCompactList}\small\item\em Adds vertex to the end of the path. \end{DoxyCompactList}\item 
+void \hyperlink{class_t_s_p_1_1_path_af5f4a7bbbfc9968ed2d279bbf92b6783}{Remove} ()
+\begin{DoxyCompactList}\small\item\em Removes last vertex in the path. \end{DoxyCompactList}\item 
+bool \hyperlink{class_t_s_p_1_1_path_a710007cd80209ca53b27e528b062812e}{Contains} (Vertex ver)
+\begin{DoxyCompactList}\small\item\em Check if the path contains given vertex. \end{DoxyCompactList}\item 
+int \hyperlink{class_t_s_p_1_1_path_a181ae650b5030f9149d5cd59cb144f07}{calculate\+Path\+Cost} ()
+\begin{DoxyCompactList}\small\item\em Calculates cost of the path. \end{DoxyCompactList}\item 
+List$<$ string $>$ \hyperlink{class_t_s_p_1_1_path_afbf4a07bd366d0254c3f6a3853556336}{get\+Path} ()
+\begin{DoxyCompactList}\small\item\em Gets names of the verticies in the path. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+List$<$ Vertex $>$ \hyperlink{class_t_s_p_1_1_path_a38835275eabdb4069039af3c4e383ceb}{Verticies}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets the verticies in the path. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Data structure that represents path of verticies. 
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_t_s_p_1_1_path_a7e0e3153773cfc55f12188e7391ca7e4}\label{class_t_s_p_1_1_path_a7e0e3153773cfc55f12188e7391ca7e4}} 
+\index{T\+S\+P\+::\+Path@{T\+S\+P\+::\+Path}!Path@{Path}}
+\index{Path@{Path}!T\+S\+P\+::\+Path@{T\+S\+P\+::\+Path}}
+\subsubsection{\texorpdfstring{Path()}{Path()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily T\+S\+P.\+Path.\+Path (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Initialises object of {\itshape Path}  type. 
+
+\mbox{\Hypertarget{class_t_s_p_1_1_path_aca57fab7fe67faf8661ba5b5c509cd65}\label{class_t_s_p_1_1_path_aca57fab7fe67faf8661ba5b5c509cd65}} 
+\index{T\+S\+P\+::\+Path@{T\+S\+P\+::\+Path}!Path@{Path}}
+\index{Path@{Path}!T\+S\+P\+::\+Path@{T\+S\+P\+::\+Path}}
+\subsubsection{\texorpdfstring{Path()}{Path()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily T\+S\+P.\+Path.\+Path (\begin{DoxyParamCaption}\item[{\hyperlink{class_t_s_p_1_1_path}{Path}}]{p }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Copies object of {\itshape Path}  type. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p} & Object of {\itshape Path}  type.\\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_t_s_p_1_1_path_af665136228859abe5ce93796067516ee}\label{class_t_s_p_1_1_path_af665136228859abe5ce93796067516ee}} 
+\index{T\+S\+P\+::\+Path@{T\+S\+P\+::\+Path}!Add@{Add}}
+\index{Add@{Add}!T\+S\+P\+::\+Path@{T\+S\+P\+::\+Path}}
+\subsubsection{\texorpdfstring{Add()}{Add()}}
+{\footnotesize\ttfamily void T\+S\+P.\+Path.\+Add (\begin{DoxyParamCaption}\item[{Vertex}]{ver }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Adds vertex to the end of the path. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em ver} & Vertex to be added at the end of the path.\\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_t_s_p_1_1_path_a181ae650b5030f9149d5cd59cb144f07}\label{class_t_s_p_1_1_path_a181ae650b5030f9149d5cd59cb144f07}} 
+\index{T\+S\+P\+::\+Path@{T\+S\+P\+::\+Path}!calculate\+Path\+Cost@{calculate\+Path\+Cost}}
+\index{calculate\+Path\+Cost@{calculate\+Path\+Cost}!T\+S\+P\+::\+Path@{T\+S\+P\+::\+Path}}
+\subsubsection{\texorpdfstring{calculate\+Path\+Cost()}{calculatePathCost()}}
+{\footnotesize\ttfamily int T\+S\+P.\+Path.\+calculate\+Path\+Cost (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Calculates cost of the path. 
+
+\begin{DoxyReturn}{Returns}
+Returns cost of the path
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_t_s_p_1_1_path_a710007cd80209ca53b27e528b062812e}\label{class_t_s_p_1_1_path_a710007cd80209ca53b27e528b062812e}} 
+\index{T\+S\+P\+::\+Path@{T\+S\+P\+::\+Path}!Contains@{Contains}}
+\index{Contains@{Contains}!T\+S\+P\+::\+Path@{T\+S\+P\+::\+Path}}
+\subsubsection{\texorpdfstring{Contains()}{Contains()}}
+{\footnotesize\ttfamily bool T\+S\+P.\+Path.\+Contains (\begin{DoxyParamCaption}\item[{Vertex}]{ver }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Check if the path contains given vertex. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em ver} & Vertex to be checked in the path.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Returns true if given vertex occurs in the path, otherwise returns false.
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_t_s_p_1_1_path_afbf4a07bd366d0254c3f6a3853556336}\label{class_t_s_p_1_1_path_afbf4a07bd366d0254c3f6a3853556336}} 
+\index{T\+S\+P\+::\+Path@{T\+S\+P\+::\+Path}!get\+Path@{get\+Path}}
+\index{get\+Path@{get\+Path}!T\+S\+P\+::\+Path@{T\+S\+P\+::\+Path}}
+\subsubsection{\texorpdfstring{get\+Path()}{getPath()}}
+{\footnotesize\ttfamily List$<$string$>$ T\+S\+P.\+Path.\+get\+Path (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Gets names of the verticies in the path. 
+
+\begin{DoxyReturn}{Returns}
+Returns list of verticies names in the path.
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_t_s_p_1_1_path_af5f4a7bbbfc9968ed2d279bbf92b6783}\label{class_t_s_p_1_1_path_af5f4a7bbbfc9968ed2d279bbf92b6783}} 
+\index{T\+S\+P\+::\+Path@{T\+S\+P\+::\+Path}!Remove@{Remove}}
+\index{Remove@{Remove}!T\+S\+P\+::\+Path@{T\+S\+P\+::\+Path}}
+\subsubsection{\texorpdfstring{Remove()}{Remove()}}
+{\footnotesize\ttfamily void T\+S\+P.\+Path.\+Remove (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Removes last vertex in the path. 
+
+
+
+\subsection{Property Documentation}
+\mbox{\Hypertarget{class_t_s_p_1_1_path_a38835275eabdb4069039af3c4e383ceb}\label{class_t_s_p_1_1_path_a38835275eabdb4069039af3c4e383ceb}} 
+\index{T\+S\+P\+::\+Path@{T\+S\+P\+::\+Path}!Verticies@{Verticies}}
+\index{Verticies@{Verticies}!T\+S\+P\+::\+Path@{T\+S\+P\+::\+Path}}
+\subsubsection{\texorpdfstring{Verticies}{Verticies}}
+{\footnotesize\ttfamily List$<$Vertex$>$ T\+S\+P.\+Path.\+Verticies\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Gets the verticies in the path. 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+Konrad Maksymiuk/\+Dropbox/\+V\+S2015/\+C\+S/\+O\+O\+P project/\+T\+S\+P/Path.\+cs\end{DoxyCompactItemize}

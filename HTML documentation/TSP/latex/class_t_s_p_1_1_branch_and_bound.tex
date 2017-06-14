@@ -1,0 +1,104 @@
+\hypertarget{class_t_s_p_1_1_branch_and_bound}{}\section{T\+S\+P.\+Branch\+And\+Bound Class Reference}
+\label{class_t_s_p_1_1_branch_and_bound}\index{T\+S\+P.\+Branch\+And\+Bound@{T\+S\+P.\+Branch\+And\+Bound}}
+
+
+Implements a branch and bound algorithm with the best first search that finds solution to Travelling Salesman Problem (\hyperlink{namespace_t_s_p}{T\+SP}).  
+
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_t_s_p_1_1_branch_and_bound_a84b9a838cc94e09944800997fc8e9603}{Branch\+And\+Bound} (Graph graph, string root)
+\begin{DoxyCompactList}\small\item\em Initialises obejct of {\itshape Branch\+And\+Bound}  type. \end{DoxyCompactList}\item 
+void \hyperlink{class_t_s_p_1_1_branch_and_bound_a481cf0409bad1731787b1bf60b2186b6}{Initialise} (Vertex ver)
+\begin{DoxyCompactList}\small\item\em Initialise algorithm. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+Vertex \hyperlink{class_t_s_p_1_1_branch_and_bound_a6cfacf2e18f7380bd6b0d590a4e4beba}{Root}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets the initial vertex. \end{DoxyCompactList}\item 
+int \hyperlink{class_t_s_p_1_1_branch_and_bound_abf0f798bc9d1fbcc337d430665cea9d5}{Minimum}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets the cost of the soluton. \end{DoxyCompactList}\item 
+List$<$ string $>$ \hyperlink{class_t_s_p_1_1_branch_and_bound_a09726f63fe30fb54455b1b1f7b05d2d9}{Solution}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets solution. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Implements a branch and bound algorithm with the best first search that finds solution to Travelling Salesman Problem (\hyperlink{namespace_t_s_p}{T\+SP}). 
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_t_s_p_1_1_branch_and_bound_a84b9a838cc94e09944800997fc8e9603}\label{class_t_s_p_1_1_branch_and_bound_a84b9a838cc94e09944800997fc8e9603}} 
+\index{T\+S\+P\+::\+Branch\+And\+Bound@{T\+S\+P\+::\+Branch\+And\+Bound}!Branch\+And\+Bound@{Branch\+And\+Bound}}
+\index{Branch\+And\+Bound@{Branch\+And\+Bound}!T\+S\+P\+::\+Branch\+And\+Bound@{T\+S\+P\+::\+Branch\+And\+Bound}}
+\subsubsection{\texorpdfstring{Branch\+And\+Bound()}{BranchAndBound()}}
+{\footnotesize\ttfamily T\+S\+P.\+Branch\+And\+Bound.\+Branch\+And\+Bound (\begin{DoxyParamCaption}\item[{Graph}]{graph,  }\item[{string}]{root }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Initialises obejct of {\itshape Branch\+And\+Bound}  type. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em graph} & Graph that represents \hyperlink{namespace_t_s_p}{T\+SP} problem.\\
+\hline
+{\em root} & Initial point (vertex).\\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_t_s_p_1_1_branch_and_bound_a481cf0409bad1731787b1bf60b2186b6}\label{class_t_s_p_1_1_branch_and_bound_a481cf0409bad1731787b1bf60b2186b6}} 
+\index{T\+S\+P\+::\+Branch\+And\+Bound@{T\+S\+P\+::\+Branch\+And\+Bound}!Initialise@{Initialise}}
+\index{Initialise@{Initialise}!T\+S\+P\+::\+Branch\+And\+Bound@{T\+S\+P\+::\+Branch\+And\+Bound}}
+\subsubsection{\texorpdfstring{Initialise()}{Initialise()}}
+{\footnotesize\ttfamily void T\+S\+P.\+Branch\+And\+Bound.\+Initialise (\begin{DoxyParamCaption}\item[{Vertex}]{ver }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Initialise algorithm. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em ver} & Initial vertex (root).\\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Property Documentation}
+\mbox{\Hypertarget{class_t_s_p_1_1_branch_and_bound_abf0f798bc9d1fbcc337d430665cea9d5}\label{class_t_s_p_1_1_branch_and_bound_abf0f798bc9d1fbcc337d430665cea9d5}} 
+\index{T\+S\+P\+::\+Branch\+And\+Bound@{T\+S\+P\+::\+Branch\+And\+Bound}!Minimum@{Minimum}}
+\index{Minimum@{Minimum}!T\+S\+P\+::\+Branch\+And\+Bound@{T\+S\+P\+::\+Branch\+And\+Bound}}
+\subsubsection{\texorpdfstring{Minimum}{Minimum}}
+{\footnotesize\ttfamily int T\+S\+P.\+Branch\+And\+Bound.\+Minimum\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Gets the cost of the soluton. 
+
+\mbox{\Hypertarget{class_t_s_p_1_1_branch_and_bound_a6cfacf2e18f7380bd6b0d590a4e4beba}\label{class_t_s_p_1_1_branch_and_bound_a6cfacf2e18f7380bd6b0d590a4e4beba}} 
+\index{T\+S\+P\+::\+Branch\+And\+Bound@{T\+S\+P\+::\+Branch\+And\+Bound}!Root@{Root}}
+\index{Root@{Root}!T\+S\+P\+::\+Branch\+And\+Bound@{T\+S\+P\+::\+Branch\+And\+Bound}}
+\subsubsection{\texorpdfstring{Root}{Root}}
+{\footnotesize\ttfamily Vertex T\+S\+P.\+Branch\+And\+Bound.\+Root\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Gets the initial vertex. 
+
+\mbox{\Hypertarget{class_t_s_p_1_1_branch_and_bound_a09726f63fe30fb54455b1b1f7b05d2d9}\label{class_t_s_p_1_1_branch_and_bound_a09726f63fe30fb54455b1b1f7b05d2d9}} 
+\index{T\+S\+P\+::\+Branch\+And\+Bound@{T\+S\+P\+::\+Branch\+And\+Bound}!Solution@{Solution}}
+\index{Solution@{Solution}!T\+S\+P\+::\+Branch\+And\+Bound@{T\+S\+P\+::\+Branch\+And\+Bound}}
+\subsubsection{\texorpdfstring{Solution}{Solution}}
+{\footnotesize\ttfamily List$<$string$>$ T\+S\+P.\+Branch\+And\+Bound.\+Solution\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Gets solution. 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+Konrad Maksymiuk/\+Dropbox/\+V\+S2015/\+C\+S/\+O\+O\+P project/\+T\+S\+P/Branch\+And\+Bound.\+cs\end{DoxyCompactItemize}
